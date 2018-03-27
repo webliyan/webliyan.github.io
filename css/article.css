@@ -19,6 +19,7 @@
 }
 article {
   width: 50rem;
+  max-width: 100%;
   text-align: justify;
   margin: 0 2rem;
   margin-bottom: 2rem;

@@ -88,6 +88,7 @@ height: 0.5rem,
 }
 article {
   width: 50rem;
+  max-width: 100%;
   text-align: justify;
   margin: 0 2rem;
   margin-bottom: 2rem;
@@ -487,6 +488,7 @@ article .different-posts {
 }
 .header__nav {
   width: 50rem;
+  max-width: 100%;
   margin: 0 auto;
   margin-top: 0.5rem;
 }
@@ -559,7 +561,7 @@ article .different-posts {
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
-  width: 50rem;
+  width: contentWidth;
 }
 .footer__element {
   padding: 1rem;
@@ -879,6 +881,7 @@ pre .javascript .function {
 }
 .archive {
   width: 50rem;
+  max-width: 100%;
   padding: 3rem;
   display: block;
   font-size: 2.369rem;
@@ -1087,6 +1090,7 @@ a:hover:visited {
 .different-posts {
   display: block;
   width: 50rem;
+  max-width: 100%;
   text-align: center;
 }
 .different-posts a {
